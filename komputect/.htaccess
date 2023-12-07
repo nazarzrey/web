@@ -1,0 +1,33 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+	#block index blon bayar
+	#Redirect 301 /index.php /suspend/index.html
+	#RewriteRule ^product\.html$ product_dtl.php?product_name=$1 [L]
+	
+	
+	RewriteRule ^contact$ contact.php [L]
+	RewriteRule ^proyek$ proyek.php [L]
+	RewriteRule ^project$ proyek.php [L]
+	RewriteRule ^product$ product.php [L]
+	
+	RewriteRule ^product/([^/\.]+)/?$ product_dtl.php?product_name=$1 [L]	
+	RewriteRule ^product/([^/\.]+)/?\.html$ product_dtl.php?product_name=$1 [L]
+	RewriteRule ^project/([^/\.]+)/?\.html$ proyek_dtl.php?project_name=$1 [L]
+
+	#RewriteRule ^gallerydtl/([^/\.]+)/?$ home.php?page=gallerydtl&data=$1 [L]
+	#RewriteRule ^gallerydtl/([^/\.]+)/fb/?$ home.php?page=gallerydtl&data=$1&media=fb [L]
+	#RewriteRule ^gallerydtl/([^/\.]+)/tw/?$ home.php?page=gallerydtl&data=$1&media=tw [L]
+	#RewriteRule ^judgesdtl/([^/\.]+)/?$ home.php?page=judgesdtl&data=$1 [L]
+	#RewriteRule ^search/([^/\.]+)/?$ home.php?page=search&search=$1 [L]
+	#RewriteRule ^pwreset/([^/\.]+)/?$ home.php?page=pwreset&key=$1 [L]
+
+	#RewriteRule ^contact$ index.php?halaman=contact [L]
+	#RewriteRule ^Error-(.*)$ index.php?halaman=E404 [L]
+	#RewriteRule ^Lokasi-(.*)\.html$ index.php?halaman=Maps [L]
+	#RewriteRule ^product_id-(.*)\.html$ index.php?halaman=product&product_id=$1 
+	
+
+	RewriteRule ^notfound.html$ 404.php [L]
+	ErrorDocument 404 https://komputeclift.com/notfound.html
+
+</IfModule>

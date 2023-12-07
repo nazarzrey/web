@@ -1,0 +1,205 @@
+body{
+	background:#0180b5;
+  	background: -webkit-radial-gradient(#c4e9fb,#006ab4); /* Safari 5.1 to 6.0 */
+  	background: -moz-radial-gradient(#c4e9fb,#006ab4); /* Safari 5.1 to 6.0 */
+  	margin:auto;
+	font-family:verdana;
+}
+.logo{
+	height:30%;
+	width:10%;
+	margin:auto;
+}
+#login_container{
+	margin:auto;
+	margin-top:100px;
+	min-height:500px;
+	max-height:600px;
+  	}
+#login_form{
+	height:250px;
+	width:600px;
+	border:solid  5px #fff;
+	margin:auto;
+	border-radius:10px;
+}
+@media (max-width:480px){
+	#login_form{
+		height:250px;
+		width:95%;
+		margin:auto;
+		border-radius:10px;	
+	}
+	.input_text{
+		width: 150px;
+	}	
+	#tiga_d{
+		font-size:15px;
+		padding-top:10px;
+	}
+	.form{
+		margin-top:20px;
+		margin-left:0px;	
+	}
+	.logo{
+		height:30%;
+		width:10%;
+		margin:auto;
+	}
+}
+@media (min-width:481px) and (max-width:640px){
+	#login_form{
+		height:300px;
+		width:500px;
+		border:solid  5px #fff;
+		margin:auto;
+		border-radius:10px;	
+	}
+	.input_text{
+		width: 250px;
+	}
+	#tiga_d{
+		font-size:20px;
+	}
+	.form{
+		margin-top:20px;
+		margin-left:80px;	
+	}
+#login_container{
+	margin:auto;
+	margin-top:0px;
+  	}
+}
+@media (min-width:641px) and (max-width:1023px){
+	#login_form{
+		height:300px;
+		width:500px;
+		border:solid  5px #fff;
+		margin:auto;
+		border-radius:10px;	
+	}
+	.input_text{
+		width: 250px;
+	}
+	#tiga_d{
+		font-size:20px;
+	}
+	.form{
+		margin-top:20px;
+		margin-left:80px;	
+	}
+}
+@media (min-width:1024px){	
+	#tiga_d{
+		font-size:26px;
+	}
+	.form{
+		margin-top:20px;
+		margin-left:80px;	
+	}
+}
+.form_top{
+	background:#fff;
+	height:35%;
+	width:auto;
+}
+.form_bot{
+	background:#0180b5;
+	border-top:solid 2px orange;
+	height:64.5%;
+	width:auto;
+	overflow:hidden;
+}
+.input_text{
+	width: 300px;
+	border-radius: 4px;
+	border:transparent;
+	color: #555;
+	padding: 8px;
+	margin:5px;
+	font-size: 13px;
+}
+.input_submit{
+	background: linear-gradient(#FFCC00,#FF6633);
+	font-size:12px;
+	box-shadow:0 0 2px #FF6633;
+	text-align:center;
+	border-radius:3px;
+	cursor:pointer;
+	border:transparent;
+	text-decoration:none;
+	font-family:courier;
+	color:white;
+	font-weight:bold;
+	width:100px;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	margin:5px;
+}
+.input_submit:hover{
+	background: linear-gradient( #FF6633,#FFCC00);
+	box-shadow:0 0 2px #FF6633;
+	border:solid 1px #FF6633;
+}
+
+.effect6
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect6:before, .effect6:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+.effect7:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+#tiga_d{
+font-family:verdana;
+color:#555;
+font-weight:bold;
+text-shadow:0px 0px 0 rgb(227,227,227),1px 1px 0 rgb(208,208,208), 2px 2px 0 rgb(190,190,190),2px 2px 1px rgba(0,0,0,0.05),2px 2px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2);
+}

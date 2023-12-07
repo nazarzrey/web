@@ -1,0 +1,42 @@
+#notfound{
+    /*background-image: url(../assets/images/bg.jpg);*/
+    /*background-color:red; */
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+#notfound .logohold{
+  margin:0;margin-top:10px;opacity: 0.7;
+}
+#img_404{
+    margin:9.1% auto;
+}
+
+@media (max-width:1366px){
+	#img_404{
+	    margin:7.2% auto;
+	    width: 30%;
+	}	
+	.box-style-1 i{font-size: 40px;}
+}
+.carousel-inner .proyek_slide div{
+	border:solid 1px #ddd;
+	border-top:none;
+	text-align: left;
+	padding:15px;
+	color:#555;
+	box-shadow:0 0 3px #ddd;
+	font-size:12px;
+	min-height:135px;
+}
+.carousel-inner .title{
+	font-size:16px;
+	font-weight:bold;
+}
+.carousel-inner .proyek_slide a:hover{
+	text-decoration: none;
+}

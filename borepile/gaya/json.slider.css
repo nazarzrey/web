@@ -1,0 +1,154 @@
+
+/* jssor slider thumbnail navigator skin 11 css */
+/*
+.jssort11 .p            (normal)
+.jssort11 .p:hover      (normal mouseover)
+.jssort11 .pav          (active)
+.jssort11 .pav:hover    (active mouseover)
+.jssort11 .pdn          (mousedown)
+*/
+.jssort11
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.jssort11 .i, .jssort11 .pav:hover .i
+{
+	position: absolute;
+	top:3px;
+	left:3px;
+	WIDTH: 60px;
+	HEIGHT: 30px;
+	border: white 1px dashed;
+}
+* html .jssort11 .i
+{
+	WIDTH /**/: 62px;
+	HEIGHT /**/: 32px;
+}
+.jssort11 .pav .i
+{
+	border: white 1px solid;
+}
+.jssort11 .t, .jssort11 .pav:hover .t
+{
+	position: absolute;
+	top: 3px;
+	left: 68px;
+	width:129px;
+	height: 32px;
+	line-height:32px;
+	text-align: center;
+	color:#fc9835;
+	font-size:13px;
+	font-weight:700;
+}
+.jssort11 .pav .t, .jssort11 .phv .t, .jssort11 .p:hover .t
+{
+	color:#fff;
+}
+.jssort11 .c, .jssort11 .pav:hover .c
+{
+	position: absolute;
+	top: 38px;
+	left: 3px;
+	width:197px;
+	height: 31px;
+	line-height:31px;
+	color:#fff;
+	font-size:11px;
+	font-weight:400;
+	overflow: hidden;
+}
+.jssort11 .pav .c, .jssort11 .phv .c, .jssort11 .p:hover .c
+{
+	color:#fc9835;
+}
+.jssort11 .t, .jssort11 .c
+{
+	transition: color 2s;
+	-moz-transition: color 2s;
+	-webkit-transition: color 2s;
+	-o-transition: color 2s;
+}
+.jssort11 .p:hover .t, .jssort11 .phv .t, .jssort11 .pav:hover .t, .jssort11 .p:hover .c, .jssort11 .phv .c, .jssort11 .pav:hover .c
+{
+	transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+}
+.jssort11 .p
+{
+	background:#181818;
+}
+.jssort11 .pav, .jssort11 .pdn
+{
+	background:#462300;
+}
+.jssort11 .p:hover, .jssort11 .phv, .jssort11 .pav:hover
+{
+	background:#333;
+}.client{
+	padding-top:10px;
+}.client1{
+	font-size:13px;
+	font-weight:bold;
+	border-bottom:solid 1px orange;
+	padding-bottom:10px;
+	margin-bottom:5px;
+}
+.client>a{
+	text-decoration:none;
+	font-size:12px;
+	color:#666;
+}
+.client>a:hover{
+	color:#999;
+}
+
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av
+{
+    background: url(../image/b03.png) no-repeat;
+    overflow:hidden;
+    cursor: pointer;
+}
+.jssorb03 div { background-position: -5px -4px; }
+.jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+.jssorb03 .av { background-position: -65px -4px; }
+.jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+.jssora03l, .jssora03r, .jssora03ldn, .jssora03rdn
+{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(image/a03.png) no-repeat;
+    overflow:hidden;
+}
+.jssora03l { background-position: -3px -33px; }
+.jssora03r { background-position: -63px -33px; }
+.jssora03l:hover { background-position: -123px -33px; }
+.jssora03r:hover { background-position: -183px -33px; }
+.jssora03ldn { background-position: -243px -33px; }
+.jssora03rdn { background-position: -303px -33px; }
+
+
+ .BS1{
+ 	position: relative;
+ 	width:800px;
+ 	height: 280px;
+ 	background: #FFFFCC;
+ 	overflow: hidden;
+}
+/*
+position: relative;width:700px; height: 250px; background: #FFFFCC; overflow: hidden;
+*/
+
+.BS2{
+	cursor: move;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 500px; 
+	height: 280px; 
+	overflow: hidden;
+}

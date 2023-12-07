@@ -1,0 +1,61 @@
+#modalContainer {
+    background-color:rgba(0, 0, 0, 0.3);
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:9999999999;
+    background-image:url(tp.png); /* required by MSIE to prevent actions on lower z-index elements */
+}
+
+#alertBox {
+    position:relative;
+    width:300px;
+    min-height: 120px;
+    margin-top:200px;
+	background:#404c58;
+	background:linear-gradient(#404c58,#2f3b46);
+    background-repeat:no-repeat;
+	color:#f1f1f1;
+	text-align:center;
+	font-size:13px;
+    border:solid 3px #f1f1f1;
+    padding:0 20px;
+}
+
+#modalContainer > #alertBox {
+    position:fixed;
+}
+
+.dialog1_close2{
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	position:absolute;
+	width:50px;
+	bottom:10px;
+	padding:6px;color:#2f3b46; font-size:12px;background:#fff;font-weight:bold;border:solid 1px #fff;}
+.dialog1_close2:hover{background:#2f3b46;border:solid 1px #fff;color:#fff;}
+
+#alertBox #closeBtn {
+	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom:10px;
+    padding:7px;
+    width:70px;
+    text-transform:uppercase;
+    text-align:center;
+    text-decoration:none;
+	color:#2f3b46;
+	font-size:12px;
+	background:#fff;
+	font-weight:bold;
+	border:solid 1px #fff;
+}
+#alertBox #closeBtn:hover{background:#2f3b46;border:solid 1px #fff;color:#fff;
+}

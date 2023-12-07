@@ -1,0 +1,189 @@
+[11-Oct-2016 01:41:23 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'n42r3y'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'n42r3y'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'n42r3y'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'n42r3y'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'n42r3y'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[11-Oct-2016 08:41:23 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[19-Oct-2016 02:57:59 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[19-Oct-2016 09:57:59 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[10-Nov-2016 03:47:27 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[10-Nov-2016 10:47:28 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[10-Nov-2016 10:47:32 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[24-Jan-2017 15:06:52 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[24-Jan-2017 22:06:52 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[22-Feb-2017 13:41:47 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[22-Feb-2017 20:41:53 Asia/Jakarta] PHP Warning:  mysql_query(): Too many connections in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[22-Feb-2017 20:41:53 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[22-Feb-2017 20:41:54 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[22-Feb-2017 20:42:01 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[22-Feb-2017 20:42:01 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[22-Feb-2017 20:42:01 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[22-Feb-2017 20:42:01 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[22-Feb-2017 20:42:01 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[22-Feb-2017 20:42:01 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[22-Feb-2017 20:42:01 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[22-Feb-2017 20:42:03 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[02-Mar-2017 04:01:10 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[02-Mar-2017 11:01:16 Asia/Jakarta] PHP Warning:  mysql_query(): Too many connections in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[02-Mar-2017 11:01:31 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[02-Mar-2017 11:01:31 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[02-Mar-2017 11:01:31 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[02-Mar-2017 11:01:31 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[02-Mar-2017 11:01:40 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[02-Mar-2017 11:01:40 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[02-Mar-2017 11:01:40 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[02-Mar-2017 11:01:40 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[02-Mar-2017 11:01:40 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[02-Mar-2017 11:01:40 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[02-Mar-2017 05:47:00 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 119
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 119
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 120
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/halaman/project_slide.php on line 47
+[02-Mar-2017 12:47:00 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/halaman/project_slide.php on line 47
+[11-Apr-2017 13:55:15 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[11-Apr-2017 20:55:18 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[12-Apr-2017 01:35:23 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[12-Apr-2017 08:35:25 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[12-Apr-2017 08:35:50 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[12-Apr-2017 08:35:50 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[12-Apr-2017 08:35:50 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[12-Apr-2017 08:35:50 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[12-Apr-2017 08:35:59 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[12-Apr-2017 08:35:59 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[12-Apr-2017 08:35:59 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[12-Apr-2017 08:35:59 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[12-Apr-2017 08:35:59 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[12-Apr-2017 08:35:59 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[25-Apr-2017 05:35:01 UTC] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[25-Apr-2017 12:35:01 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[10-May-2017 01:34:27 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[10-May-2017 08:35:03 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[10-May-2017 01:36:49 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[10-May-2017 08:37:19 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[10-May-2017 08:37:38 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[10-May-2017 08:37:38 Asia/Jakarta] PHP Warning:  mysql_query(): Too many connections in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[10-May-2017 08:37:38 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[10-May-2017 08:37:38 Asia/Jakarta] PHP Warning:  mysql_query(): Too many connections in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[10-May-2017 08:37:38 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[10-May-2017 08:37:38 Asia/Jakarta] PHP Warning:  mysql_query(): Too many connections in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[10-May-2017 08:37:38 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[10-May-2017 08:37:38 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[10-May-2017 08:37:39 Asia/Jakarta] PHP Warning:  mysql_query(): Too many connections in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[10-May-2017 08:38:16 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[11-May-2017 13:43:04 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[11-May-2017 20:43:18 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[11-May-2017 20:43:19 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[11-May-2017 20:43:19 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[11-May-2017 20:43:19 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[11-May-2017 20:43:19 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[11-May-2017 20:43:19 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[11-May-2017 20:43:19 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[11-May-2017 20:43:39 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[11-May-2017 20:43:39 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[11-May-2017 20:43:39 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[11-May-2017 20:43:39 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[11-May-2017 13:45:53 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_query(): Too many connections in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_query(): Too many connections in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_query(): Too many connections in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[11-May-2017 20:45:57 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[11-May-2017 20:46:05 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[16-May-2017 13:35:14 UTC] PHP Warning:  mysql_connect(): Too many connections in /home/n42r3y/public_html/komputeclift.com/definisi/config.php on line 17
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 12
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 22
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 37
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/index.php on line 80
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/n42r3y/public_html/komputeclift.com/index.php on line 81
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[16-May-2017 20:35:14 Asia/Jakarta] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n42r3y/public_html/komputeclift.com/slide_show.php on line 132
+[02-Feb-2018 21:24:05 Asia/Jakarta] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/n42r3y/public_html/komputeclift.com/halaman/404.php on line 8
+[02-Feb-2018 21:24:06 Asia/Jakarta] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/n42r3y/public_html/komputeclift.com/halaman/404.php on line 8
+[02-Feb-2018 21:24:07 Asia/Jakarta] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/n42r3y/public_html/komputeclift.com/halaman/404.php on line 8
+[02-Feb-2018 21:24:08 Asia/Jakarta] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/n42r3y/public_html/komputeclift.com/halaman/404.php on line 8
+[02-Feb-2018 21:24:09 Asia/Jakarta] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/n42r3y/public_html/komputeclift.com/halaman/404.php on line 8
+[02-Feb-2018 21:24:10 Asia/Jakarta] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/n42r3y/public_html/komputeclift.com/halaman/404.php on line 8
+[02-Feb-2018 21:24:11 Asia/Jakarta] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/n42r3y/public_html/komputeclift.com/halaman/404.php on line 8
+[02-Feb-2018 21:24:16 Asia/Jakarta] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/n42r3y/public_html/komputeclift.com/halaman/404.php on line 8
+[02-Feb-2018 21:24:17 Asia/Jakarta] PHP Warning:  mysql_query(): Unable to save result set in /home/n42r3y/public_html/komputeclift.com/halaman/project.php on line 149

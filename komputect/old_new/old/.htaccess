@@ -1,0 +1,31 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^home$ index.php?halaman=home [L]
+RewriteRule ^product$ index.php?halaman=produk [L]
+RewriteRule ^project$ index.php?halaman=proyek [L]
+RewriteRule ^about$ index.php?halaman=about [L]
+RewriteRule ^contact$ index.php?halaman=contact [L]
+#RewriteRule ^index\.html$ index.php [L]
+#RewriteRule ^about\.html$ tentang.php [L]
+#RewriteRule ^application\.html$ aplikasi.php [L]
+#RewriteRule ^client\.html$ klien.php [L]
+#RewriteRule ^contact\.html$ kontak.php [L]
+#RewriteRule ^info-(.*)\.html$ content.php?info_dtl=$1 [L]
+#RewriteRule ^produk_dtl-(.*)\.html$ content.php?dtl_produk=$1 [L]
+#RewriteRule ^Beranda\.html$ index.php?halaman=home [L]
+#RewriteRule ^about$ index.php?halaman=product [L]
+#RewriteRule ^project$ index.php?halaman=project [L]
+#RewriteRule ^workshop$ index.php?halaman=workshop [L]
+#RewriteRule ^About$ index.php?halaman=About [L]
+#RewriteRule ^contact$ index.php?halaman=contact [L]
+#RewriteRule ^Error-(.*)$ index.php?halaman=E404 [L]
+#RewriteRule ^Lokasi-(.*)\.html$ index.php?halaman=Maps [L]
+#RewriteRule ^product_id-(.*)\.html$ index.php?halaman=product&product_id=$1 
+#RewriteRule ^project_id-(.*)\.html$ index.php?halaman=project&project_id=$1 
+#RewriteRule ^project_dtl-(.*)\.html$ index.php?halaman=project&project_dtl=$1 
+#RewriteRule ^project_thn-(.*)\.html$ index.php?halaman=project&project_thn=$1 
+#RewriteRule ^project_agent-(.*)\.html$ index.php?halaman=project&project_agent=$1 
+#RewriteRule ^project_page-(.*)\.html$ index.php?halaman=project&project_page=$1
+#RewriteRule ^agent_dtl-(.*)\.html$ index.php?halaman=Agent&agent_dtl=$1
+#RewriteRule ^Info-(.*)\.html$ index.php?halaman=berita&id_berita=$1
+</IfModule>

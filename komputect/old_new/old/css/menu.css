@@ -1,0 +1,96 @@
+/*tree menu css ->start here*/
+.arrowlistmenu{
+width: 100%; /*width of accordion menu*/
+margin:0px;
+box-shadow: 0 0 5px #999;
+border-radius:5px;
+border:solid 1px #ccc;
+}
+.arrowlistmenu a{
+	text-decoration:none;
+	color:black;
+}
+.arrowlistmenu .openheader a{
+	text-decoration:none;
+	color:white;
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+	font: bold 13px tahoma;
+	color: #001B73;
+	background:white;
+	text-transform: uppercase;
+	padding: 12px 0 10px 10px; /*header text is indented 10px*/
+	cursor: hand;
+	cursor: pointer;
+	border-radius:5px 5px 0 0;
+	border-bottom:solid 1px #666666;
+	background-image: url(../image/nav-item-bg.png);
+}
+.arrowlistmenu .menucenter{ /*CSS class for menu headers in general (expanding or not!)*/
+	font: bold 13px tahoma;
+	color: #001B73;
+	background:#ffc;
+	text-transform: uppercase;
+	padding: 12px 0 10px 10px; /*header text is indented 10px*/
+	cursor: hand;
+	cursor: pointer;
+	border-bottom:solid 1px #666666;
+	background-image: url(../image/nav-item-bg.png);
+}
+
+.arrowlistmenu .menubottom{ /*CSS class for menu headers in general (expanding or not!)*/
+	font: bold 13px tahoma;
+	color: #001B73;
+	background:white;
+	text-transform: uppercase;
+	padding: 12px 0 10px 10px; /*header text is indented 10px*/
+	cursor: hand;
+	cursor: pointer;
+	border-radius:0 0 5px 5px;
+	background-image: url(../image/nav-item-bg.png);
+}
+.arrowlistmenu .openheader{
+	background-image: url(../image/nav-item-bg2.png);	
+	color: orange;
+}
+
+.arrowlistmenu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin:5px;
+	background:#d4dfe4;
+	background: linear-gradient( #eef4f7,#d4dfe4); 
+}
+.menucenter:hover{
+	background:#6E7AFF;
+	color:white;
+}
+.arrowlistmenu ul li{
+	font-family:tahoma;
+	font-size:14px;
+}
+
+.arrowlistmenu ul li a{
+	display: block;
+	padding: 6px 0;
+	padding-left: 19px; /*link text is indented 19px*/
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 90%;
+	border-bottom:solid 1px #ccc;
+	color: black;
+}
+
+.arrowlistmenu ul li a:visited{
+	color: black;
+}
+
+.arrowlistmenu ul li a:hover{
+	color:#001B73;
+	padding:5.5px;
+	border:solid 1px #fff;
+	box-shadow:0 0 5px #ddd;
+	background: linear-gradient( #eef4f7,#d4dfe4); 
+}
