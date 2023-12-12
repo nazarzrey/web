@@ -1,0 +1,19 @@
+
+.bgr{
+    background-color:#eafee8;
+    margin:auto;
+    background:url(https://jami-alhidayah.com/assets/img/masjid.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@media screen and (max-width: 1024px){        
+    .bgr {
+/*         background: #fff; */
+        height: 100%;
+        background-color:#eafee8;
+        margin:auto;
+        background:url(https://jami-alhidayah.com/assets/img/m-masjid.jpg);
+        background-repeat: none;
+        background-size: 100vh;
+    }
+}

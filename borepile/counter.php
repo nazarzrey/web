@@ -1,5 +1,4 @@
 <?php
-$ip  = getenv("REMOTE_ADDR");
 $tgl = date("Y-m-d");
 $jam = date("H:i:s");
 $sintak  = "select * from counter where ip_client='$ip' and tanggal='$tgl'";

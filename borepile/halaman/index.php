@@ -90,9 +90,9 @@ function ready_profile($field)
 				$("#menu").css ? v3('height', tinggi + 'px');
 				$("#menu_mobile_hdr ul li ").click(function(e) {
 					if ($(this).has('ul')) {
-						$('.dropdown').removeClass('dropdown').hide();
+						$('.xdropdown').removeClass(.xdropdown').hide();
 					}
-					$(this).find('ul').addClass('dropdown').show();
+					$(this).find('ul').addClass(.xdropdown').show();
 				})
 			}
 			$("#refresh").click(function() {
@@ -143,9 +143,9 @@ function ready_profile($field)
 				$("#menu").css ? v3('height', tinggi + 'px');
 				$("#menu_mobile_hdr ul li ").click(function(e) {
 					if ($(this).has('ul')) {
-						$('.dropdown').removeClass('dropdown').hide();
+						$('.xdropdown').removeClass(.xdropdown').hide();
 					}
-					$(this).find('ul').addClass('dropdown').show();
+					$(this).find('ul').addClass(.xdropdown').show();
 				})
 			}
 		})
@@ -236,7 +236,7 @@ function ready_profile($field)
 					</li>
 					<li><a href="home">Beranda</a></li>
 					<li><a href="#">Produk</a>
-						<ul class="dropdown">
+						<ul class=.xdropdown">
 							<?php
 							$cek_grup = $db->select("select url_grup,deskripsi from master_grup where grup='produk' and aktif in ('Y','X') order by id_grup");
 							foreach ($cek_grup as $hsl_cek_grup) {
@@ -247,7 +247,7 @@ function ready_profile($field)
 						</ul>
 					</li>
 					<li style="border:none;"><a href="#">Proyek</a>
-						<ul class="dropdown">
+						<ul class=.xdropdown">
 							<?php
 							$cek_grup = $db->select("select url_grup,deskripsi from master_grup where grup='building' and aktif in ('Y','X') AND id_grup IN (
 								SELECT id_fk_proy FROM proyek WHERE aktif='Y'
@@ -260,7 +260,7 @@ function ready_profile($field)
 						</ul>
 					</li>
 					<li><a href="galery_image">Galeri</a>
-						<!-- <ul class="dropdown">
+						<!-- <ul class=.xdropdown">
 							<li><a href="galery_image">Galeri Foto</a></li>
 							<li><a href="galery_video">Galeri Video</a></li>
 						</ul> -->

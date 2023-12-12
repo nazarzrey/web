@@ -1,0 +1,116 @@
+
+
+		.btn-overlay {
+			top: 150px;
+			text-align: right;
+			transition: all 0.7s;
+			z-index: 123;
+			position: absolute;
+			right: 0;
+		}
+
+		.btn-overlay button {
+			transition: all 0.7s;
+			z-index: 1234;
+			right: 0;
+		}
+
+		.btn-overlay span {
+            font-size: 20px !important;
+		}
+
+		.btn-close {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			font-size: 16px;
+			/*   border:solid 2px #fff */
+		}
+
+		.modal-content .modal-title {
+			font-size: 20px;
+			color: #ffffff;
+		}
+
+		.modal-title {
+			margin: 0;
+
+			/* line-height: 1.42857143; */
+		}
+
+		.modal-title a {
+			color: #fff !important;
+			font-size: 15px;
+			width: 100%;
+			float: left;
+		}
+
+		.mr10 {
+			margin-right: 10px;
+		}
+
+		.mt10 {
+			padding: 7px 0
+		}
+
+		.modal-body a {
+			color: #000 !important
+		}
+
+		.modal-body a:hover {
+			color: blue !important
+		}
+
+		.more-contact {
+			padding: 0;
+			/*     list-style-type: none; */
+			float: none;
+			width: 100%;
+		}
+
+		.more-contact .kontak_name {
+			padding-left: 10px
+		}
+
+		.more-contact li {
+			/*   border:solid 1px; */
+			list-style: none;
+			width: 32.3%;
+			display: inline-block;
+			text-align: center;
+		}
+
+		.more-contact .fa {
+			color: green;
+			font-size: 38px !important;
+			padding-top: 20px;
+		}
+
+		.more-contact li div {
+			font-size: 13px;
+			position: absolute;
+			width: 30%;
+			display: none;
+		}
+
+		@media (max-width: 1024px) {
+
+			.btn-overlay {
+				margin: 0 !important;
+				padding: 0 !important;
+				opacity: 0.7;
+			}
+
+			.btn-overlay span {
+				display: none;
+			}
+
+			.btn-overlay .btn {
+				padding: 10px !important;
+				min-width: auto;
+			}
+
+			.btn-overlay .btn.btn-lg {
+				padding: 10px !important;
+			}
+		}

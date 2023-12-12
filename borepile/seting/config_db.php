@@ -17,7 +17,8 @@ class Db
 		if (!isset(self::$connection)) {
 			#self::$connection = new mysqli('agencyfish.com','agency_C0LoUr5','C0LoUR$1D@2R3Y','agency_cLoW');
 			#require_once "config/config.db.php"; 
-			self::$connection = new mysqli('localhost', 'n42r3y_bpile', 'Adeli@biz4R', 'n42r3y_bore');
+			#self::$connection = new mysqli('localhost', 'n42r3y_bpile', 'Adeli@biz4R', 'n42r3y_bore');
+			self::$connection = new mysqli('localhost:3336', 'root', 'toor','n42r3y_bore');
 			#self::$connection = new mysqli('localhost','garuda_C0LoUr5C0','C0LoUR$1D@2R3Y','garuda_cLot3W');
 		}
 

@@ -4,17 +4,17 @@
  */
 
 /* Logic */
-ul.dropdown, ul.dropdown li, ul.dropdown ul {
+ul.xdropdown, ul.xdropdown li, ul.xdropdown ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-ul.dropdown {
+ul.xdropdown {
 	position: relative;
 	z-index: 100;
 	padding-top: 1px;
 }
-ul.dropdown li {
+ul.xdropdown li {
 	position: relative;
 	z-index: 520;
 	float: left;
@@ -22,12 +22,12 @@ ul.dropdown li {
 	line-height: 1.3em;
 	zoom: 1;
 }
-ul.dropdown li.hover, ul.dropdown li:hover {
+ul.xdropdown li.hover, ul.xdropdown li:hover {
 	position: relative;
 	z-index: 200;
 	cursor: default;
 }
-ul.dropdown ul {
+ul.xdropdown ul {
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -35,29 +35,29 @@ ul.dropdown ul {
 	display: none;
 	width: 100%;
 }
-ul.dropdown ul li {
+ul.xdropdown ul li {
 	float: none;
 }
-ul.dropdown ul ul, ul.dropdown-vertical ul, ul.dropdown-vertical ul ul {
+ul.xdropdown ul ul, ul.xdropdown-vertical ul, ul.xdropdown-vertical ul ul {
 	top: 1px;
 	left: 100%;
 	margin-top: -7px;
 }
-ul.dropdown li:hover > ul, ul.dropdown li:hover > span > ul {
+ul.xdropdown li:hover > ul, ul.xdropdown li:hover > span > ul {
 	display: block;
 }
 
 /* For vertical menu */
-ul.dropdown-vertical li {
+ul.xdropdown-vertical li {
 	float: none;
 }
 /* /For vertical menu */
 
 /* For right to left orientation */
-ul.dropdown-vertical.rtl a {
+ul.xdropdown-vertical.rtl a {
 	text-align: right;
 }
-ul.dropdown-vertical.rtl ul {
+ul.xdropdown-vertical.rtl ul {
 	right: 100%;
 	left: auto;
 	margin-right: 0;
@@ -66,11 +66,11 @@ ul.dropdown-vertical.rtl ul {
 /* /Logic */
 
 /* Decoration */
-ul.dropdown-vertical a, ul.dropdown-vertical a:visited, ul.dropdown-vertical a:active {
+ul.xdropdown-vertical a, ul.xdropdown-vertical a:visited, ul.xdropdown-vertical a:active {
 	color: #444;
 	text-decoration: none;
 }
-ul.dropdown-vertical ul {
+ul.xdropdown-vertical ul {
 	margin: -2px 0 0 -4px;
 	padding: 5px 0;
 	width: 180px;
@@ -84,46 +84,46 @@ ul.dropdown-vertical ul {
 	box-shadow: 0 3px 3px rgba(0,0,0,0.20);
 	-ms-border-radius: 0 5px 5px 5px;
 }
-ul.dropdown-vertical ul ul {
+ul.xdropdown-vertical ul ul {
 	margin-left: 0;
 }
-ul.dropdown-vertical a {
+ul.xdropdown-vertical a {
 	display: block;
 	padding: 10px 20px 8px 10px;
 	position: relative;
 	z-index: 530;
 }
-ul.dropdown-vertical *.dir {
+ul.xdropdown-vertical *.dir {
 	background: url('images/icons/categories_arrow.png') no-repeat right 12px;
 }
-ul.dropdown-vertical ul *.dir {
+ul.xdropdown-vertical ul *.dir {
 	background: url('images/icons/categories_arrow.png') no-repeat right 8px;
 }
-ul.dropdown-vertical *.dir:hover {
+ul.xdropdown-vertical *.dir:hover {
 	background-color: #fff;
 	background-position: right -58px;
 }
-ul.dropdown-vertical ul *.dir:hover {
+ul.xdropdown-vertical ul *.dir:hover {
 	background-color: #fff;
 	background-position: right -62px;
 }
-ul.dropdown-vertical > li:hover {
+ul.xdropdown-vertical > li:hover {
 	margin-top: -1px;
 	border-top: 1px solid #ccc;
 	background-color: #fff;
 }
-ul.dropdown-vertical ul li:hover > a {
+ul.xdropdown-vertical ul li:hover > a {
 	color: #0088cc;
 	text-decoration: underline;
 }
-ul.dropdown-vertical li.cm-active > a, .sidebox-wrapper .sidebox-body ul li.cm-active > a {
+ul.xdropdown-vertical li.cm-active > a, .sidebox-wrapper .sidebox-body ul li.cm-active > a {
 	color: #0088cc;
 }
-ul.dropdown-vertical > li.cm-active {
+ul.xdropdown-vertical > li.cm-active {
 	border-bottom: 1px dotted #ccc;
 	background-color: #fff;
 }
-ul.dropdown-vertical ul li a {
+ul.xdropdown-vertical ul li a {
 	padding: 5px 10px 5px;
 }
 .hide-border {
@@ -135,100 +135,100 @@ ul.dropdown-vertical ul li a {
 	height: 100%;
 	background-color: #fff;
 }
-ul.dropdown-vertical > li:hover .hide-border {
+ul.xdropdown-vertical > li:hover .hide-border {
 	display: block;
 }
-ul.dropdown-vertical > li:hover ul .hide-border {
+ul.xdropdown-vertical > li:hover ul .hide-border {
 	display: none;
 	margin-top: -6px;
 	margin-right: -1px;
 	padding: 10px 2px;
 	background: url(images/cat_noborder.png) 0 0 no-repeat;
 }
-ul.dropdown-vertical > li:hover ul li:hover > .hide-border {
+ul.xdropdown-vertical > li:hover ul li:hover > .hide-border {
 	display: block;
 }
 
-#ci_top_wrapper ul.dropdown, 
-#ci_top_wrapper ul.dropdown-vertical {
+#ci_top_wrapper ul.xdropdown, 
+#ci_top_wrapper ul.xdropdown-vertical {
 	z-index: 600;
 }
-#ci_top_wrapper ul.dropdown li, 
-#ci_top_wrapper ul.dropdown-vertical li {
+#ci_top_wrapper ul.xdropdown li, 
+#ci_top_wrapper ul.xdropdown-vertical li {
 	z-index: 610;
 }
-#ci_top_wrapper ul.dropdown li a, 
-#ci_top_wrapper ul.dropdown-vertical li a {
+#ci_top_wrapper ul.xdropdown li a, 
+#ci_top_wrapper ul.xdropdown-vertical li a {
 	z-index: 620;
 }
 
 /* Separator */
-ul.dropdown-vertical > li {
+ul.xdropdown-vertical > li {
 	border-bottom: 1px solid transparent;
 }
-ul.dropdown-vertical > li.b-border {
+ul.xdropdown-vertical > li.b-border {
 	border-bottom: 1px solid #ccc;
 }
-ul.dropdown-vertical > li:hover {
+ul.xdropdown-vertical > li:hover {
 	border-bottom: 1px solid #ccc;
 }
-ul.dropdown-vertical ul .b-border {
+ul.xdropdown-vertical ul .b-border {
 	border: none;
 }
 /* /Separator */
 
 /* Decoration for right to left orientation*/
-.right-column ul.dropdown-vertical ul {
+.right-column ul.xdropdown-vertical ul {
 	top: 1px;
 	right: 100%;
 	left: auto;
 }
-ul.dropdown-vertical.rtl *.dir {
+ul.xdropdown-vertical.rtl *.dir {
 	background: url('images/icons/categories_arrow_rtl.png') no-repeat left 12px;
 }
-ul.dropdown-vertical.rtl ul *.dir {
+ul.xdropdown-vertical.rtl ul *.dir {
 	background: url('images/icons/categories_arrow_rtl.png') no-repeat left 8px;
 }
-ul.dropdown-vertical.rtl *.dir:hover {
+ul.xdropdown-vertical.rtl *.dir:hover {
 	background-color: #fff;
 	background-position: left -58px;
 }
-ul.dropdown-vertical.rtl ul *.dir:hover {
+ul.xdropdown-vertical.rtl ul *.dir:hover {
 	background-color: #fff;
 	background-position: left -62px;
 }
-ul.dropdown-vertical.rtl .hide-border {
+ul.xdropdown-vertical.rtl .hide-border {
 	right: 100%;
 	left: auto;
 	margin-right: -6px;
 }
-ul.dropdown-vertical.rtl ul {
+ul.xdropdown-vertical.rtl ul {
 	-webkit-border-radius: 5px 0 5px 5px;
 	-moz-border-radius: 5px 0 5px 5px;
 	border-radius: 5px 0 5px 5px;
 	-ms-border-radius: 5px 0 5px 5px;
 }
-ul.dropdown-vertical.rtl > li:hover ul .hide-border {
+ul.xdropdown-vertical.rtl > li:hover ul .hide-border {
 	margin-right: -7px;
 	background: url(images/cat_noborder_rtl.png) 0 0 no-repeat;
 }
 /* /Decoration for right to left orientation*/
 /* /Decoration */
 
-/* Multicolumns dropdown */
-.wrap-dropdown-multicolumns {
+/* Multicolumns.xdropdown */
+.wrap.xdropdown-multicolumns {
 	position: relative;
 	display: block;
 	margin: 0 auto;
   border-top: 1px solid #ddd;
 }
-ul.dropdown-multicolumns {
+ul.xdropdown-multicolumns {
 	margin: 0px auto 0px auto;
 	padding: 0px;
 	min-height: 35px;
 	list-style: none;
 }
-ul.dropdown-multicolumns li {
+ul.xdropdown-multicolumns li {
 	position: relative;
 	float: left;
 	margin-top: 0;
@@ -241,39 +241,39 @@ ul.dropdown-multicolumns li {
 	background: linear-gradient(#FFF,#f1f1f1);
 }
 
-ul.dropdown-multicolumns li li {
+ul.xdropdown-multicolumns li li {
 	border: none;
 	margin-top: 5px;
 	margin-right: 5px;
 	height:auto;
 	background: none;
 }
-ul.dropdown-multicolumns li:last-child {
+ul.xdropdown-multicolumns li:last-child {
 	margin-right: 0;
 } 
 .fullwidth_x {
 	width:100px;
 }
-ul.dropdown-multicolumns li.fullwidth {
+ul.xdropdown-multicolumns li.fullwidth {
 	position: static !important;
 }
-ul.dropdown-multicolumns > li.cm-active {
+ul.xdropdown-multicolumns > li.cm-active {
 	background: #FFD73A url(images/menu_hover_bg.jpg) repeat-x top;
 }
-ul.dropdown-multicolumns > li.cm-active > a {
+ul.xdropdown-multicolumns > li.cm-active > a {
 	padding-bottom: 6px;
   color:white;
 }
-ul.dropdown-multicolumns > li:hover {
+ul.xdropdown-multicolumns > li:hover {
 	z-index: 500;
 	border-bottom: none;
   background: #FFD73A url(images/menu_hover_bg.jpg) repeat-x top;
 }
-ul.dropdown-multicolumns > li.nodrop:hover {
+ul.xdropdown-multicolumns > li.nodrop:hover {
 	background: #FFD73A url(images/menu_hover_bg.jpg) repeat-x top;
 }
 
-ul.dropdown-multicolumns li a {
+ul.xdropdown-multicolumns li a {
 	display: table-cell;
 	vertical-align:middle;
 	text-align:center;
@@ -284,35 +284,35 @@ ul.dropdown-multicolumns li a {
 	color: #6b6b6b;
 	text-decoration: none;
 }
-ul.dropdown-multicolumns li a.drop, ul.dropdown-multicolumns li.nodrop a {
+ul.xdropdown-multicolumns li a.drop, ul.xdropdown-multicolumns li.nodrop a {
 	font: normal 12px/14px Aller;
 }
-ul.dropdown-multicolumns li:hover a {
+ul.xdropdown-multicolumns li:hover a {
 	position: relative;
 	z-index: 600;
 	color:white;
 }
-ul.dropdown-multicolumns li:hover div a {
+ul.xdropdown-multicolumns li:hover div a {
 	display: inline;
 }
 
 /* Right aligned menu item */
-ul.dropdown-multicolumns .right {
+ul.xdropdown-multicolumns .right {
 	right: 0;
 	float: right;
 	margin-right: 0px;
 }
-ul.dropdown-multicolumns li.right:hover {
+ul.xdropdown-multicolumns li.right:hover {
 	margin-right: -1px;
 }
 /* /Right aligned menu item */
 
-.dropdown-1column, 
-.dropdown-2columns, 
-.dropdown-3columns, 
-.dropdown-4columns,
-.dropdown-5columns,
-.dropdown-fullwidth {
+.xdropdown-1column, 
+.xdropdown-2columns, 
+.xdropdown-3columns, 
+.xdropdown-4columns,
+.xdropdown-5columns,
+.xdropdown-fullwidth {
 	position: absolute;
 	left: -999em;
   z-index: 510;
@@ -329,73 +329,73 @@ ul.dropdown-multicolumns li.right:hover {
 }
 
 /* Drop downs sizes */
-.dropdown-1column {width: 163px;}
-.dropdown-2columns {width: 318px;}
-.dropdown-3columns {width: 473px;}
-.dropdown-4columns {width: 628px;}
-.dropdown-5columns {width: 783px;}
-.dropdown-fullwidth {
+.xdropdown-1column {width: 163px;}
+.xdropdown-2columns {width: 318px;}
+.xdropdown-3columns {width: 473px;}
+.xdropdown-4columns {width: 628px;}
+.xdropdown-5columns {width: 783px;}
+.xdropdown-fullwidth {
 	width: 958px;
 }
 
 /* Drop to right */
-.dropdown-multicolumns li:hover .dropdown-1column, 
-.dropdown-multicolumns li:hover .dropdown-2columns, 
-.dropdown-multicolumns li:hover .dropdown-3columns,
-.dropdown-multicolumns li:hover .dropdown-4columns,
-.dropdown-multicolumns li:hover .dropdown-5columns {
+.xdropdown-multicolumns li:hover .xdropdown-1column, 
+.xdropdown-multicolumns li:hover .xdropdown-2columns, 
+.xdropdown-multicolumns li:hover .xdropdown-3columns,
+.xdropdown-multicolumns li:hover .xdropdown-4columns,
+.xdropdown-multicolumns li:hover .xdropdown-5columns {
 	top: 35px;
 	left: 0px;
 }
-.dropdown-multicolumns li:hover .dropdown-fullwidth {
+.xdropdown-multicolumns li:hover .xdropdown-fullwidth {
 	left: 0px;
 	display: block;
 }
 /* /Drop to right */
 
 /* Drop to left */
-.dropdown-multicolumns li:hover .drop-left {
+.xdropdown-multicolumns li:hover .drop-left {
 	top: 35px;
 	right: -1px;
 	left: auto;
 }
-.dropdown-multicolumns li.right:hover .dropdown-fullwidth {
+.xdropdown-multicolumns li.right:hover .xdropdown-fullwidth {
 	top: 33px;
 	right: 18px;
 }
 /* /Drop to left */
 
 /* Columns Sizes */
-.dropdown-multicolumns .col-1,
-.dropdown-multicolumns .col-2,
-.dropdown-multicolumns .col-3,
-.dropdown-multicolumns .col-4,
-.dropdown-multicolumns .col-5,
-.dropdown-multicolumns .col-6 {
+.xdropdown-multicolumns .col-1,
+.xdropdown-multicolumns .col-2,
+.xdropdown-multicolumns .col-3,
+.xdropdown-multicolumns .col-4,
+.xdropdown-multicolumns .col-5,
+.xdropdown-multicolumns .col-6 {
 	float: left;
 	display: inline-block;
 	margin-right: 10px;
 	padding-bottom: 10px;
 }
-.dropdown-multicolumns .col-1 {width: 145px;}
-.dropdown-multicolumns .col-2 {width: 300px;}
-.dropdown-multicolumns .col-3 {width: 455px;}
-.dropdown-multicolumns .col-4 {width: 610px;}
-.dropdown-multicolumns .col-5 {width: 765px;}
-.dropdown-multicolumns .col-6 {width: 920px;}
+.xdropdown-multicolumns .col-1 {width: 145px;}
+.xdropdown-multicolumns .col-2 {width: 300px;}
+.xdropdown-multicolumns .col-3 {width: 455px;}
+.xdropdown-multicolumns .col-4 {width: 610px;}
+.xdropdown-multicolumns .col-5 {width: 765px;}
+.xdropdown-multicolumns .col-6 {width: 920px;}
 
-.dropdown-multicolumns .firstcolumn {/* Use the firstcolumn class for the items that stick to the left edge of the dropdown */
+.xdropdown-multicolumns .firstcolumn {/* Use the firstcolumn class for the items that stick to the left edge of the.xdropdown */
 	clear: left;
 	margin-left: 9px;
 }
 /* /Columns Sizes */
 
-.dropdown-multicolumns .lastcolumn {
+.xdropdown-multicolumns .lastcolumn {
 	margin-right: 9px;
 }
 
 /* Content styles */
-ul.dropdown-multicolumns h3 {
+ul.xdropdown-multicolumns h3 {
 	margin-bottom: 10px;
 	padding-bottom: 2px;
 	border-bottom: 1px solid #bcbcbc;
@@ -403,22 +403,22 @@ ul.dropdown-multicolumns h3 {
 	font-weight: 600;
 	font-size: 14px;
 }
-ul.dropdown-multicolumns li:hover div a {
+ul.xdropdown-multicolumns li:hover div a {
 	padding: 0;
 	border: none;
 	text-decoration: none;
 	text-shadow: none;
 }
-ul.dropdown-multicolumns .pusher { /* Use this pucher if you want to give more vertical spacing between your rows of content */
+ul.xdropdown-multicolumns .pusher { /* Use this pucher if you want to give more vertical spacing between your rows of content */
 	margin-top: 18px;
 }
 
-ul.dropdown-multicolumns li ul {
+ul.xdropdown-multicolumns li ul {
 	margin: 0 0 12px 0;
 	padding: 0;
 	list-style: none;
 }
-ul.dropdown-multicolumns li ul li {
+ul.xdropdown-multicolumns li ul li {
 	position: relative;
 	float: left;
 	margin: 1px 0 1px;
@@ -429,15 +429,15 @@ ul.dropdown-multicolumns li ul li {
 	font-size: 12px;
 	line-height: 16px;
 }
-ul.dropdown-multicolumns li ul li a {
+ul.xdropdown-multicolumns li ul li a {
 	padding: 0;
 }
-ul.dropdown-multicolumns li ul li:hover {
+ul.xdropdown-multicolumns li ul li:hover {
 	margin: 1px 0 1px;
 	padding: 0;
 	border: none;
 }
-.dropdown-bottom {
+.xdropdown-bottom {
 	clear: left;
 	padding: 10px 20px;
 	border-top: 1px solid #e6e6e6;
@@ -448,46 +448,46 @@ ul.dropdown-multicolumns li ul li:hover {
 	text-align: right;
 	-ms-border-radius: 0 0 3px 3px;
 }
-.dropdown-bottom a {
+.xdropdown-bottom a {
 	text-transform: uppercase;
 	font-size: 11px;
 }
-ul.dropdown-multicolumns {
+ul.xdropdown-multicolumns {
 	height:35px;
 	background: linear-gradient(#FFF,#f1f1f1);
 	box-shadow:0px 8px 5px -7px #ccc; 
 }
-ul.dropdown-multicolumns li:hover div a {
+ul.xdropdown-multicolumns li:hover div a {
 	color: #999;
 }
-ul.dropdown-multicolumns li:hover div .alt-link a, ul.dropdown-multicolumns li:hover div .dropdown-bottom a {
+ul.xdropdown-multicolumns li:hover div .alt-link a, ul.xdropdown-multicolumns li:hover div .xdropdown-bottom a {
 	color: #999;
 }
-ul.dropdown-multicolumns li:hover div a:hover {
+ul.xdropdown-multicolumns li:hover div a:hover {
 	color: #008AC9;
 	text-decoration: underline;
 }
 
-ul.dropdown-multicolumns li:hover div h3 a,
-ul.dropdown-multicolumns li:hover div h3 a:hover {
+ul.xdropdown-multicolumns li:hover div h3 a,
+ul.xdropdown-multicolumns li:hover div h3 a:hover {
 	color: #666;
 }
 
-ul.dropdown-multicolumns li li.cm-active a, ul.dropdown-multicolumns li h3.cm-active a {
+ul.xdropdown-multicolumns li li.cm-active a, ul.xdropdown-multicolumns li h3.cm-active a {
 	font-weight:bold;
 }
-ul.dropdown-multicolumns li ul li a:hover {
+ul.xdropdown-multicolumns li ul li a:hover {
 	color: white;
 	text-decoration: underline;
 }
 
-ul.dropdown-multicolumns li:hover .drop {
+ul.xdropdown-multicolumns li:hover .drop {
 	background-position: right -36px;
 }
-ul.dropdown-multicolumns h3 {
+ul.xdropdown-multicolumns h3 {
 	min-height: 25px;
 	line-height: 100%;
 	font-family: titillium_websemibold;
 }
 /* /Content styles */
-/* /Multicolumns dropdown */
+/* /Multicolumns.xdropdown */

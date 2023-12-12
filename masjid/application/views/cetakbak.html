@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		@media print{
+			@page{
+				/*size:8.5in 11in;*/
+				/*size:8.5in 23in;*/
+				/*size:213mm 328mm;*/
+				size:landscape;						
+			}
+		}
+		/*body{margin:auto;color:#02338e;font-family: "tahoma"}*/
+		body{margin:auto;color:#0f4ec3;font-family: "tahoma"}
+		/*body{margin:auto;color:red;font-family: "tahoma"}*/
+		.cnt{
+			/*width:816px;
+			height: 1056px;*/
+			width: auto;
+			height: 197mm;
+			
+/*
+			width: auto;
+			height:auto;*/
+			position: relative !important;
+			/*margin:15px;*/
+			border: solid 1px transparent;
+			padding:35px 0;
+		}
+		.xno,.no,.nm,.kls1,.kls2,.kls3,.rt,.info,.link,.qr,.pin{position: absolute;font-weight: bold}
+
+		.xno{top:3mm;right:3mm;font-weight: normal;font-size: 10px}
+		.no{top:42mm;left:210mm;}
+		.nm{top:49mm;left:210mm;}
+		.kls1{top:57.5mm;left:209.5mm;}
+		.kls2{top:57.5mm;left:247mm;}
+		.kls3{top:57.5mm;left:286mm;}
+		.rt{top:70mm;left:241mm;}
+		.info{top:185mm;left:10mm;font-weight: normal;font-size: 13px}
+		.link{top:200mm;left:10mm;font-size: 16px;}
+		.qr{top:170mm;left:130mm;}
+		.pin{top:200mm;left:130mm;font-size: 18px;}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<?php 
+		foreach ($cetak as $key => $value) {
+			$img = base_url()."gallery/".str_replace("_a", "_b", $value->qr);
+			$kls = "<div class='kls".$value->kelas."'>X</div>";
+		?>
+		<div class="cnt">
+			<div class="xno"><?= $key+1 ?></div>
+			<div class="no"><?= $value->nomor ?></div>
+			<div class="nm"><?= $value->nama ?></div>
+			<?= $kls ?>
+			<div class="rt"><?= $value->rt ?></div>
+			<div class="info">silhakan scan BARCODE / akses link alamat di bawah ini dengan <br/>browser / chrome untuk melihat data detail infaq anda </div>			
+			<div class="link"><?= $value->link ?></div>			
+			<div class="qr"><img src='<?= $img ?>'/></div>			
+			<div class="pin">PIN <?= $value->pin ?></div>			
+		</div>
+		<?php
+		}
+		// foreach ($cetak as $key => $value) {
+		// 	echo "<div class='cnt'></div>";
+		// }
+		?>
+	</div>
+</body>
+</html>
+<!-- 
+[nomor] => 1
+[nama] => A SAMAT
+[pin] => 080278
+[rt] => 01
+[kelas] => 3
+[link] => www.jami-alhidayah.com/nama/a-samat
+[qr] => qr0d10551e49_a.png -->
