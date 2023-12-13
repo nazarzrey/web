@@ -121,7 +121,43 @@
               </div>
             </div>
           </div>
-
+          <!-- detil yang genit ngliat bae -->
+          
+          <div class="col-xl-12 col-md-12 mb-4">
+              <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Tabungan Siswa</div>
+                      <div class="mb-0 text-gray-800">
+                        
+                        <table border="1" class="w-100">
+                        <thead class="td-center"><th>Kelas</th><th>Debit</th><th>Kredit</th><th>Total</th></thead>
+                          <tbody class="td-right">
+                          <?php 
+                          if(isset($tabungan)){
+                            $t_in = $t_out = $t_all = 0;
+                            foreach ($tabungan as $key => $t) {
+                              echo "<tr><td class='text-center'>".
+                                  str_replace("Kelas ","",$t->kelas_nama)."</td><td>".
+                                  currency($t->tab_in)."</td><td>".
+                                  currency($t->tab_out)."</td><td>".
+                                  currency($t->total)."</td></tr>";
+                              $t_in = $t_in + $t->tab_in;
+                              $t_out = $t_out + $t->tab_out;
+                              $t_all = $t_all + $t->total;
+                            }
+                            echo "<tr class='font-weight-bold'><td class='text-center'>Total</td><td>".currency($t_in)."</td><td>".currency($t_out)."</td><td>".currency($t_all)."</td></tr>";
+                          }; ?>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- Content Row -->
 
           <div class="row hide">

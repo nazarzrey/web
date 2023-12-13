@@ -91,7 +91,30 @@ if($_SERVER['HTTP_HOST'] == 'siak.nurulkarimah.sch.id' || $_SERVER['SERVER_PORT'
 
 // echo $_SERVER['HTTP_HOST'];
 }else{
-    $route['default_controller'] = 'home';
+    //$route['default_controller'] = 'home';
+    $route['default_controller'] = 'siak';
+    /**/
+    
+    $route['login']='admin_siak/siak_login';
+    $route['logout']='admin_siak/siak_login/logout';
+    $route['login/validate']='admin_siak/siak_login/validate';
+    $route['dashboard']='admin_siak/siak_dashboard';
+    $route['master']='admin_siak/siak_master';
+    $route['master/(:any)']='admin_siak/siak_master/$1';
+    $route['master/(:any)/(:any)']='admin_siak/siak_master/$1/$2';    
+    
+    $route['tabungan']='admin_siak/siak_nabung';
+    $route['tabungan/(:any)']='admin_siak/siak_nabung/$1';
+    $route['tabungan/(:any)/(:any)']='admin_siak/siak_nabung/$1/$2';    
+    $route['tabungan/(:any)/(:any)/notnull']='admin_siak/siak_nabung/$1/$2/$3';    
+
+    $route['xhr']='admin_siak/ajax';
+    $route['xhr/(:any)']='admin_siak/ajax/$1';
+    $route['xhr/(:any)/(:any)']='admin_siak/ajax/$1/$2';    
+
+    $route['qrlogin']='admin_siak/siak_login/qrlogin';
+    $route['qrlogin/(:any)']='admin_siak/siak_login/qrlogin/$1';
+    
 }
 $route['administrator']='admin/login';
 $route['admin']='admin/dashboard';

@@ -1,0 +1,43 @@
+<IfModule mod_rewrite.c>
+    # ExpiresActive On
+	# ExpiresByType image/jpg "access 1 year"
+	# ExpiresByType image/jpeg "access 1 year"
+	# ExpiresByType image/gif "access 1 year"
+	# ExpiresByType image/png "access 1 year"
+	# ExpiresByType text/css "access 1 month"
+	# ExpiresByType text/html "access 1 month"
+	# ExpiresByType application/pdf "access 1 month"
+	# ExpiresByType text/x-javascript "access 1 month"
+	# ExpiresByType application/x-shockwave-flash "access 1 month"
+	# ExpiresByType image/x-icon "access 1 year"
+	# ExpiresDefault "access 1 month"
+
+    RewriteEngine On
+	
+	#press release
+	
+	#RewriteRule ^id/([^/\.]+)/?$ index.php?bahasa=id&release=$1 [L]	
+	#RewriteRule ^en/([^/\.]+)/?$ index.php?bahasa=en&release=$1 [L]
+    #RewriteRule ^(.*)\.html$ index.php?kode=$1
+	
+#RewriteRule ^home$ index.php?halaman=home [L]
+#RewriteRule ^product$ index.php?halaman=product [L]
+#RewriteRule ^project$ index.php?halaman=project [L]
+#RewriteRule ^workshop$ index.php?halaman=workshop [L]
+#RewriteRule ^About$ index.php?halaman=About [L]
+#RewriteRule ^contact$ index.php?halaman=contact [L]
+#RewriteRule ^Error-(.*)$ index.php?halaman=E404 [L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-l
+
+	RewriteRule ^(.*)$ index.php?kode=$1 [NC,L]
+	#RewriteRule ^create$ index.php?create [L]
+
+	#404 not found page
+	
+	#ErrorDocument 404 http://localhost/agencyfish/PR/
+	
+	
+</IfModule>

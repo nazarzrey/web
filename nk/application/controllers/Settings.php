@@ -277,7 +277,7 @@ class Settings extends CI_Controller
         $this->siak_footer();
     }
 
-    public function siak_header($judul = "",$data)
+    public function siak_header($judul = "",$data="")
     {
         $sv = $_SERVER['SERVER_ADDR'];
         $data["uri1"] = $this->uri->segment(1);
@@ -325,7 +325,7 @@ class Settings extends CI_Controller
         $this->siswa_footer();
     }
 
-    public function siswa_header($judul = "",$data)
+    public function siswa_header($judul = "",$data="")
     {
         $sv = $_SERVER['SERVER_ADDR'];
         $data["uri1"] = $this->uri->segment(1);

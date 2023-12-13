@@ -1,0 +1,5 @@
+D:\xampp\htdocs\ci3\koperasi153\application\controllers\Siak.php
+D:\xampp\htdocs\ci3\koperasi153\application\controllers\admin_siak\Siak_dashboard.php
+D:\xampp\htdocs\ci3\koperasi153\application\controllers\admin_siak\Siak_login.php
+D:\xampp\htdocs\ci3\koperasi153\application\controllers\admin_siak\Siak_master.php
+D:\xampp\htdocs\ci3\koperasi153\application\controllers\admin_siak\Siak_nabung.php
